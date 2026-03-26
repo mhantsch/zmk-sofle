@@ -20,4 +20,4 @@ manifest:
       remote: kbrd-space
       revision: main
   self:
-    path: boards
+    path: config
