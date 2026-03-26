@@ -416,7 +416,7 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - BSLC
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
