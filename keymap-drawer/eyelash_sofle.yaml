@@ -1109,7 +1109,7 @@ combos:
 - p: [14, 15]
   k: $$mdi:keyboard-esc$$
   l: [Qwerty, Qty-HRM, Colemak, CmkHRM, rev-Cmk, QWERTY (base)]
-- p: [13, 1]
+- p: [13, 14]
   k: $$mdi:keyboard-esc$$
   l: [Qwerty, Qty-HRM, Colemak, CmkHRM, rev-Cmk, QWERTY (base)]
 - p: [37, 38]
