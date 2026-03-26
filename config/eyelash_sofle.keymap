@@ -343,17 +343,17 @@
             >;
         };
 
-        // lower_layer { // Layer 6 - a number pad on the right hand, function keys on the left
-        //     display-name = "Lower";
+        lower_layer { // Layer 6 - a number pad on the right hand, function keys on the left
+            display-name = "Lower";
     
-        //     bindings = <
-        //         &kp ESC      &kp F1      &kp F2      &kp F3        &kp F4       &kp F5                  &kp UP               &kp F6          &kp F7       &kp F8       &kp F9      &kp F10        &kp BSPC
-        //         &kp TAB      &kp F1      &kp F2      &kp F3        &kp F4       &kp F5                  &kp DOWN             &kp KP_SLASH    &kp KP_N7    &kp KP_N8    &kp KP_N9   &kp KP_MINUS   &kp BSLC
-        //         &trans       &kp F6      &kp F7      &kp F8        &kp F9       &kp F10                 &kp LEFT             &kp KP_ASTERISK &kp KP_N4    &kp KP_N5    &kp KP_N6   &kp KP_PLUS    &kp KP_ENTER
-        //         &trans       &kp F11     &kp F12     &kp C_AL_CALC &none        &kp P                   &kp RIGHT            &kp LS(P)       &kp KP_N1    &kp KP_N2    &kp KP_N3   &kp EQUAL      &trans
-        //         &trans                   &trans      &trans        &trans       &kp SPACE     &kp PG_UP &kp ENTER &kp PG_DN  &kp SPACE       &kp KP_N0    &kp KP_DOT   &kp KP_COMMA
-        //     >;
-        // };
+            bindings = <
+                &kp ESC      &kp F1      &kp F2      &kp F3        &kp F4       &kp F5                  &kp UP               &kp F6          &kp F7       &kp F8       &kp F9      &kp F10        &kp BSPC
+                &kp TAB      &kp F1      &kp F2      &kp F3        &kp F4       &kp F5                  &kp DOWN             &kp KP_SLASH    &kp KP_N7    &kp KP_N8    &kp KP_N9   &kp KP_MINUS   &kp BSLC
+                &trans       &kp F6      &kp F7      &kp F8        &kp F9       &kp F10                 &kp LEFT             &kp KP_ASTERISK &kp KP_N4    &kp KP_N5    &kp KP_N6   &kp KP_PLUS    &kp KP_ENTER
+                &trans       &kp F11     &kp F12     &kp C_AL_CALC &none        &kp P                   &kp RIGHT            &kp LS(P)       &kp KP_N1    &kp KP_N2    &kp KP_N3   &kp EQUAL      &trans
+                &trans                   &trans      &trans        &trans       &kp SPACE     &kp PG_UP &kp ENTER &kp PG_DN  &kp SPACE       &kp KP_N0    &kp KP_DOT   &kp KP_COMMA
+            >;
+        };
 
         raise_layer { // Layer 7 - a number row on the top, symbols on other rows
             display-name = "Raise";
