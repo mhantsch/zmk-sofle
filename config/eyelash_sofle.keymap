@@ -174,7 +174,7 @@
         combo_esc_tab_q {
             require-prior-idle-ms = <100>;
             timeout-ms = <100>;
-            key-positions = <13 1>;
+            key-positions = <13 14>;
             layers = <QTY QTY_HR CMK CMK_HR CMR TRN>;
             bindings = <&kp ESC>;
         };
