@@ -508,7 +508,7 @@ layers:
   - NUBS
   - '|'
   - {t: \, s: '|'}
-  - SPACE)
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - Lower
