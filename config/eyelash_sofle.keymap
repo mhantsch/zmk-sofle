@@ -453,7 +453,7 @@
                 &kp GRAVE      &kp N1      &kp N2      &kp N3       &kp N4       &kp N5              &kp UP               &kp N6        &kp N7       &kp N8       &kp N9      &kp N0         &kp BSPC
                 &kp TAB        &uml_a      &kp W       &kp E        &kp R        &kp T               &kp DOWN             &kp Y         &kp U        &kp I        &uml_u      &uml_o         &kp BSLH
                 &kp CAPS       &kp A       &kp S       &lsz AGS 0   &kp F        &kp G               &kp LEFT             &kp H         &kp J        &lt AGS K    &kp L       &kp SEMI       &kp APOS
-                &lt AGS LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B               &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &lp AGS RSHFT
+                &lt AGS LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B               &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &lt AGS RSHFT
                 &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &mo LOW     &kp SPACE              &kp PG_UP &kp ENTER &kp PG_DN  &kp SPACE     &mo RSE      &mo FUN      &kp LALT
             >;
         };
