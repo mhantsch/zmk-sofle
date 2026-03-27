@@ -836,7 +836,7 @@ layers:
   - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Adjust
-  - '&mo 6 )'
+  - Lower
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - PG UP
   - {t: '$$mdi:keyboard-return$$', type: enter}
