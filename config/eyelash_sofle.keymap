@@ -278,7 +278,7 @@
                 &kp TAB      &kp Q       &kp W       &kp E        &kp R        &kp T                   &kp DOWN             &kp Y         &kp U        &kp I        &kp O       &kp P          &kp BSLH
                 &lt MAX BSPC &hml LALT A &hml RALT S &hml LSHFT D &hml LCTRL F &hml LGUI G             &kp LEFT             &hmr RGUI H   &hmr RCTRL J &hmr RSHFT K &hmr RALT L &hmr LALT SEMI &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -290,7 +290,7 @@
                 &kp TAB      &kp Q       &kp W       &kp E        &kp R        &kp T                   &kp DOWN             &kp Y         &kp U        &kp I        &kp O       &kp P          &kp BSLH
                 &lt MAX BSPC &kp A       &kp S       &kp D        &kp F        &kp G                   &kp LEFT             &kp H         &kp J        &kp K        &kp L       &kp SEMI       &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -302,7 +302,7 @@
                 &kp TAB      &kp Q       &kp W       &kp F        &kp P        &kp G                   &kp DOWN             &kp J         &kp L        &kp U        &kp Y       &kp SEMI       &kp BSLH
                 &lt MAX BSPC &hml LALT A &hml RALT R &hml LSHFT S &hml LCTRL T &hml LGUI D             &kp LEFT             &hmr RGUI H   &hmr RCTRL N &hmr RSHFT E &hmr RALT I &hmr LALT O &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp K         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -314,7 +314,7 @@
                 &kp TAB      &kp Q       &kp W       &kp F        &kp P        &kp G                   &kp DOWN             &kp J         &kp L        &kp U        &kp Y       &kp SEMI       &kp BSLH
                 &lt MAX BSPC &kp A       &kp R       &kp S        &kp T        &kp D                   &kp LEFT             &kp H         &kp N        &kp E        &kp I       &kp O          &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp K         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -327,7 +327,7 @@
                 &kp TAB      &kp Q       &kp W       &kp K        &kp S        &kp F                   &kp DOWN             &kp J         &kp L        &kp U        &kp Y       &kp SEMI       &kp BSLH
                 &lt MAX BSPC &kp A       &kp D       &kp G        &kp E        &kp T                   &kp LEFT             &kp H         &kp Y        &kp N        &kp U       &kp P          &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp J         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &mup LC(SPACE) LC(LS(M)) &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -339,7 +339,7 @@
                 &kp TAB      &kp Q       &kp W       &kp E        &kp R        &kp T                   &kp DOWN             &kp Y         &kp U        &kp I        &kp O       &kp P          &kp BSLH
                 &kp CAPS     &kp A       &kp S       &kp D        &kp F        &kp G                   &kp LEFT             &kp H         &kp J        &kp K        &kp L       &kp SEMI       &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -351,7 +351,7 @@
                 &kp TAB      &kp F1      &kp F2      &kp F3        &kp F4       &kp F5                  &kp DOWN             &kp KP_SLASH    &kp KP_N7    &kp KP_N8    &kp KP_N9   &kp KP_MINUS   &kp BSLH
                 &trans       &kp F6      &kp F7      &kp F8        &kp F9       &kp F10                 &kp LEFT             &kp KP_ASTERISK &kp KP_N4    &kp KP_N5    &kp KP_N6   &kp KP_PLUS    &kp KP_ENTER
                 &trans       &kp F11     &kp F12     &kp C_AL_CALC &none        &kp P                   &kp RIGHT            &kp LS(P)       &kp KP_N1    &kp KP_N2    &kp KP_N3   &kp EQUAL      &trans
-                &trans                   &trans      &trans        &trans       &kp SPACE     &kp PG_UP &kp ENTER &kp PG_DN  &kp SPACE       &kp KP_N0    &kp KP_DOT   &kp KP_COMMA
+                &trans                   &trans      &trans        &trans       &kp SPACE     &kp SPACE &kp ENTER &kp SPACE  &kp SPACE       &kp KP_N0    &kp KP_DOT   &kp KP_COMMA
             >;
         };
 
@@ -363,7 +363,7 @@
                 &kp ESC      &kp N1      &kp N2      &kp N3       &kp N4       &kp N5                  &kp DOWN             &kp N6        &kp N7       &kp N8       &kp N9      &kp N0         &kp BSLH
                 &caps_word   &trans      &kp LT      &kp LPAR     &kp RPAR     &kp GT                  &kp LEFT             &kp PLUS      &kp MINUS    &kp EQUAL    &kp LBKT    &kp RBKT       &kp GRAVE
                 &kp LSHFT    &trans      &kp LBKT    &kp RBKT     &kp LBRC     &kp RBRC                &kp RIGHT            &kp TILDE     &kp UNDER    &kp NUHS     &kp NUBS    &kp PIPE       &kp BACKSLASH
-                &kp SPACE                &kp LCTRL   &mo ADJ      &mo LOW      &kp BSPC      &kp PG_UP &kp ENTER &kp PG_DN  &kp SPACE     &mo RSE      &tog FUN     &kp LALT
+                &kp SPACE                &kp LCTRL   &mo ADJ      &mo LOW      &kp BSPC      &kp SPACE &kp ENTER &kp SPACE  &kp SPACE     &mo RSE      &tog FUN     &kp LALT
             >;
         };
 
@@ -374,7 +374,7 @@
                 &kp GRAVE    &kp N1       &kp N2        &kp N3       &kp N4       &kp N5                  &kp UP               &kp N6          &kp N7          &kp N8           &kp N9          &kp N0          &kp LC(LA(DEL))
                 &kp LA(TAB)  &to QTY      &to QTY_HR    &to CMK      &to CMK_HR   &to CMR                 &kp DOWN             &rgb_ug RGB_ON  &rgb_ug RGB_SAI &rgb_ug RGB_BRI  &rgb_ug RGB_HUI &rgb_ug RGB_EFF &kp LC(LA(DEL))
                 &kp DEL      &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            &kp LEFT             &rgb_ug RGB_OFF &rgb_ug RGB_SAD &rgb_ug RGB_BRD  &rgb_ug RGB_HUD &rgb_ug RGB_EFR &rgb_ug RGB_TOG
-                &kp LSHFT    &none        &out OUT_TOG  &out OUT_USB &out OUT_BLE &aim AIM_TOG            &kp RIGHT            &bl BL_ON       &bl BL_OFF      &bl BL_INC       &bl BL_DEC      &bl BL_CYCLE    &bl BL_TOG
+                &mo AJ2      &none        &out OUT_TOG  &out OUT_USB &out OUT_BLE &aim AIM_TOG            &kp RIGHT            &bl BL_ON       &bl BL_OFF      &bl BL_INC       &bl BL_DEC      &bl BL_CYCLE    &bl BL_TOG
                 &kp LC(SPACE)    &studio_unlock     &trans      &sys_reset     &none     &bootloader      &kp ENTER      &bootloader    &none    &sys_reset      &studio_unlock      &studio_unlock
             >;
         };
@@ -398,9 +398,9 @@
             bindings = <
                 &kp ESC      &kp F1    &kp F2         &kp F3        &kp F4           &kp F5               &kp UP               &kp F6        &kp F7    &kp F8     &kp F9    &kp F10   &kp DEL
                 &kp TAB      &kp ESC   &msc SCRL_UP   &kp C_AC_BACK &kp C_AC_FORWARD &trans               &kp DOWN             &kp PG_UP     &kp HOME  &kp UP     &kp END   &kp DEL   &kp INS
-                &trans       &kp LALT  &msc SCRL_DOWN &kp LSHFT     &kp LCTRL        &kp LGUI             &kp LEFT             &kp PG_DN     &kp LEFT  &kp DOWN   &kp RIGHT &kp BSPC  &kp ENTER
+                &trans       &kp LALT  &msc SCRL_DOWN &kp LSHFT     &kp LCTRL        &kp LGUI             &kp LEFT             &kp SPACE     &kp LEFT  &kp DOWN   &kp RIGHT &kp BSPC  &kp ENTER
                 &kp LSHFT    &kp LC(Z) &kp LC(X)      &kp LC(C)     &kp LC(V)        &kp LC(B)            &kp RIGHT            &trans        &trans    &trans     &trans    &kp K_APP &kp RSHFT
-                &kp SPACE    &trans    &mo ADJ        &kp LA(TAB)   &kp ENTER                   &kp PG_UP &kp ENTER &kp PG_DN  &kp LC(SPACE) &mo RSE   &mo FUN    &trans
+                &kp SPACE    &trans    &mo ADJ        &kp LA(TAB)   &kp ENTER                   &kp ENTER &kp ENTER &kp SPACE  &kp LC(SPACE) &mo RSE   &mo FUN    &trans
             >;
         };
 
@@ -412,7 +412,7 @@
                 &kp LA(TAB)   &kp ESC       &kp LC(W)     &kp LC(PG_UP) &kp LC(PG_DN) &kp LC(F)                &kp DOWN             &msc SCRL_UP   &msc SCRL_LEFT &mmv MOVE_UP   &msc SCRL_RIGHT &kp P     &kp BSPC
                 &kp CAPS      &kp A         &mkp MB2      &mkp MB3      &mkp MB1      &kp G                    &kp LEFT             &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp ENTER &kp ENTER
                 &kp LSHFT     &kp C_AL_LOCK &kp LC(LS(X)) &kp LC(LS(C)) &kp LC(LS(V)) &mup LC(SPACE) LC(LS(M)) &kp RIGHT            &kp LC(LS(N))  &kp M          &kp COMMA      &kp DOT         &kp SLASH &kp RSHFT
-                &kp LC(SPACE) &trans        &mo ADJ       &mo LOW     &kp SPACE                      &kp PG_UP &kp ENTER &kp PG_DN  &mkp MB1       &mo RSE        &mo FUN        &trans
+                &kp LC(SPACE) &trans        &mo ADJ       &mo LOW     &kp SPACE                      &kp SPACE &kp ENTER &kp SPACE  &mkp MB1       &mo RSE        &mo FUN        &trans
             >;
         };
 
@@ -424,7 +424,7 @@
                 &kp TAB       &kp EXCL  &kp AT   &kp HASH &kp DLLR &kp PRCNT            &kp DOWN             &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR  &kp MINUS
                 &kp CAPS      &kp N1    &kp N2   &kp N3   &kp N4   &kp N5               &kp LEFT             &kp N6    &kp N7    &kp N8    &kp N9   &kp N0    &kp PLUS
                 &kp LSHFT     &kp MINUS &kp LBKT &kp RBKT &kp LBRC &kp RBRC             &kp RIGHT            &kp LS(P) &kp P     &kp COMMA &kp DOT  &kp SLASH &mt RSHFT EQUAL
-                &kp LC(SPACE) &trans        &mo ADJ       &mo LOW  &kp ENTER  &kp PG_UP &kp ENTER &kp PG_DN  &trans    &mo RSE   &mo FUN   &trans
+                &kp LC(SPACE) &trans        &mo ADJ       &mo LOW  &kp ENTER  &kp SPACE &kp ENTER &kp SPACE  &trans    &mo RSE   &mo FUN   &trans
             >;
         };
 
@@ -436,7 +436,7 @@
                 &kp TAB      &kp Q       &kp W       &kp E        &kp R        &kp T                   &kp DOWN             &kp Y         &kp U        &kp I        &kp O       &kp P          &kp BSLH
                 &kp CAPS     &kp A       &kp S       &kp D        &kp F        &kp G                   &kp LEFT             &kp H         &kp J        &kp K        &kp L       &kp SEMI       &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp PG_UP &kp ENTER &kp PG_DN  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
+                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &lt LOW TAB  &lt MSE SPACE &kp SPACE &kp ENTER &kp SPACE  &lt NSP SPACE &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -454,7 +454,7 @@
                 &kp TAB        &uml_a      &kp W       &kp E        &kp R        &kp T               &kp DOWN             &kp Y         &kp U        &kp I        &uml_u      &uml_o         &kp BSLH
                 &kp CAPS       &kp A       &kp S       &lsz AGS 0   &kp F        &kp G               &kp LEFT             &kp H         &kp J        &lt AGS K    &kp L       &kp SEMI       &kp APOS
                 &lt AGS LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B               &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &lt AGS RSHFT
-                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &mo LOW     &kp SPACE              &kp PG_UP &kp ENTER &kp PG_DN  &kp SPACE     &mo RSE      &mo FUN      &kp LALT
+                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &mo LOW     &kp SPACE              &kp SPACE &kp ENTER &kp SPACE  &kp SPACE     &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
@@ -466,7 +466,7 @@
                 &kp TAB      &umu_a      &kp W       &kp E        &kp R        &kp T                   &kp DOWN             &kp Y         &kp U        &kp I        &umu_u      &umu_o         &kp BSLH
                 &kp CAPS     &kp A       &kp S       &uml_sz      &kp F        &kp G                   &kp LEFT             &kp H         &kp J        &kp K        &kp L       &kp SEMI       &lt MAX APOS
                 &kp LSHFT    &kp Z       &kp X       &kp C        &kp V        &kp B                   &kp RIGHT            &kp N         &kp M        &kp COMMA    &kp DOT     &kp SLASH      &mt RSHFT ENTER
-                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &mo LOW     &kp SPACE              &kp PG_UP &kp ENTER &kp PG_DN    &kp SPACE     &mo RSE      &mo FUN      &kp LALT
+                &kp LC(SPACE)  &kp LCTRL   &mo ADJ      &mo LOW     &kp SPACE              &kp SPACE &kp ENTER &kp SPACE    &kp SPACE     &mo RSE      &mo FUN      &kp LALT
             >;
         };
 
