@@ -66,6 +66,19 @@
     // SEMI is added here because QWERTY semicolon is letter 'O' in Colemak. Unfortunately, it doesn't automatically get shifted.
 };
 
+//  key positions (for hold-trigger-key-positions):
+//  (0) GRAVE     (1) N1     (2) N2    (3) N3       (4) N4         (5) N5         (6) up          (7) N6      (8) N7         (9) N8     (10) N9   (11) N0    (12) BSPC
+//  (13) TAB      (14) Q     (15) W    (16) E       (17) R         (18) T         (19) down       (20) Y      (21) U         (22) I     (23) O    (24) P     (25) BSLH
+//  (26) MAX BSPC (27) A     (28) S    (29) D       (30) F         (31) G         (32) left       (33) H      (34) J         (35) K     (36) L    (37) SEMI  (38) APOS
+//  (39) LSHFT    (40) Z     (41) X    (42) C       (43) V         (44) B         (45) right      (46) N      (47) M         (48) COMMA (49) DOT  (50) SLASH (51) RSHFT ENTER
+//  (52) MUTE     (53) LCTRL (54) ADJ  (55) LOW TAB (56) MSE SPACE (57) PGUP      (58) enter      (59) PGDN   (60) NSP SPACE (61) RSE   (62) FUN  (63) LALT
+
+#define LEFT_SIDE_KEYS 0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44
+#define RIGHT_SIDE_KEYS 7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51
+#define LEFT_SIDE_THUMBS 53 54 55 56 57
+#define RIGHT_SIDE_THUMBS 59 60 61 62 63
+#define TAB_THUMB 55
+
 / {
     // configure anti-idle.
     // in the keymap, bind &aim AIM_ON, &aim AIM_OFF, or &aim AIM_TOG to keys as desired.
@@ -95,9 +108,9 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <7 8 9 10 11 12 22 23 24 25 26 27 36 37 38 39 40 41 43 44 45 46 47>;
+            hold-trigger-key-positions = <RIGHT_SIDE_KEYS TAB_THUMB>;
             // these are all the right-side buttons
-            // left-side thumb button for LOW/TAB also included (43), allowing Alt-TAB with left hand without tapping-term-ms delay.
+            // left-side thumb button for LOW/TAB also included, allowing Alt-TAB with left hand without tapping-term-ms delay.
             hold-trigger-on-release;
         };
 
@@ -109,7 +122,7 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 28 29 30 31 32 33 42 43 44 45>;
+            hold-trigger-key-positions = <LEFT_SIDE_KEYS>;
             // these are all the left-side buttons
             hold-trigger-on-release;
         };
@@ -122,9 +135,8 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <100>;
             bindings = <&mo>, <&kp>;
-            hold-trigger-key-positions = <7 8 9 10 11 12 22 23 24 25 26 27 36 37 38 39 40 41 44 45 46 47>;
+            hold-trigger-key-positions = <RIGHT_SIDE_KEYS>;
             // these are all the right-side buttons
-            // left-side thumb button for LOW/TAB also included, allowing Alt-TAB with left hand without tapping-term-ms delay.
             hold-trigger-on-release;
         };
 
@@ -136,10 +148,11 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <100>;
             bindings = <&mo>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 28 29 30 31 32 33 42 43 44 45>;
+            hold-trigger-key-positions = <LEFT_SIDE_KEYS>;
             // these are all the left-side buttons
             hold-trigger-on-release;
         };
+
         lsz: layer_tap_sz {     // hold for momentary layer, tap for umlaut_sz macro.
                                 // pass two parameters to this behaviour:
                                 // - number of layer to activate for momentary layer functionality
@@ -154,13 +167,6 @@
             hold-trigger-on-release;
         };
     };
-
-//  key positions (for hold-trigger-key-positions):
-//  (0) GRAVE     (1) N1     (2) N2    (3) N3       (4) N4         (5) N5         (6) up          (7) N6      (8) N7         (9) N8     (10) N9   (11) N0    (12) BSPC
-//  (13) TAB      (14) Q     (15) W    (16) E       (17) R         (18) T         (19) down       (20) Y      (21) U         (22) I     (23) O    (24) P     (25) BSLH
-//  (26) MAX BSPC (27) A     (28) S    (29) D       (30) F         (31) G         (32) left       (33) H      (34) J         (35) K     (36) L    (37) SEMI  (38) APOS
-//  (39) LSHFT    (40) Z     (41) X    (42) C       (43) V         (44) B         (45) right      (46) N      (47) M         (48) COMMA (49) DOT  (50) SLASH (51) RSHFT ENTER
-//  (52) MUTE     (53) LCTRL (54) ADJ  (55) LOW TAB (56) MSE SPACE (57) PGUP      (58) enter      (59) PGDN   (60) NSP SPACE (61) RSE   (62) FUN  (63) LALT
 
     combos {
         compatible = "zmk,combos";
