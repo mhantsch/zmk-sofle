@@ -421,7 +421,7 @@
     
             bindings = <
                 &kp ESC       &kp F1    &kp F2   &kp F3   &kp F4   &kp F5               &kp UP               &kp F6    &kp F7    &kp F8    &kp F9   &kp F10   &kp BSPC
-                &kp TAB)      &kp EXCL  &kp AT   &kp HASH &kp DLLR &kp PRCNT            &kp DOWN             &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR  &kp MINUS
+                &kp TAB       &kp EXCL  &kp AT   &kp HASH &kp DLLR &kp PRCNT            &kp DOWN             &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR  &kp MINUS
                 &kp CAPS      &kp N1    &kp N2   &kp N3   &kp N4   &kp N5               &kp LEFT             &kp N6    &kp N7    &kp N8    &kp N9   &kp N0    &kp PLUS
                 &kp LSHFT     &kp MINUS &kp LBKT &kp RBKT &kp LBRC &kp RBRC             &kp RIGHT            &kp LS(P) &kp P     &kp COMMA &kp DOT  &kp SLASH &mt RSHFT EQUAL
                 &kp LC(SPACE) &trans        &mo ADJ       &mo LOW )&kp ENTER  &kp PG_UP &kp ENTER &kp PG_DN  &trans    &mo RSE   &mo FUN   &trans
