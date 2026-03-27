@@ -58,9 +58,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -123,9 +123,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -188,9 +188,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -253,9 +253,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -318,9 +318,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -383,9 +383,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -448,9 +448,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-space$$
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - KP 0
   - KP DOT
@@ -513,9 +513,9 @@ layers:
   - Adjust
   - Lower
   - {t: '$$mdi:backspace$$', type: backspace}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: Raise, type: held}
   - {t: Fun/Media, h: toggle}
@@ -560,7 +560,7 @@ layers:
   - RGB HUD
   - RGB EFR
   - RGB TOG
-  - $$mdi:apple-keyboard-shift$$
+  - Adjust 2
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - OUT USB
@@ -684,7 +684,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:arrow-left-bold$$
-  - PG DN
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -708,9 +708,9 @@ layers:
   - Adjust
   - Alt+$$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG UP
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - Ctl+$$mdi:keyboard-space$$
   - Raise
   - Fun/Media
@@ -773,9 +773,9 @@ layers:
   - Adjust
   - Lower
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - '&mkp MB1'
   - Raise
   - Fun/Media
@@ -838,9 +838,9 @@ layers:
   - Adjust
   - Lower
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {type: held}
   - Raise
   - Fun/Media
@@ -903,9 +903,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -968,9 +968,9 @@ layers:
   - Adjust
   - Lower
   - $$mdi:keyboard-space$$
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - Raise
   - Fun/Media
@@ -1033,9 +1033,9 @@ layers:
   - Adjust
   - Lower
   - $$mdi:keyboard-space$$
-  - PG UP
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG DN
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - Raise
   - Fun/Media
@@ -1080,7 +1080,7 @@ layers:
   - RGB HUD
   - RGB EFR
   - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - OUT USB
@@ -1095,14 +1095,14 @@ layers:
   - '&bl BL_TOG'
   - Ctl+$$mdi:keyboard-space$$
   - '&studio_unlock'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:backup-restore$$', type: held}
   - '&studio_unlock'
   - '&studio_unlock'
 combos:
