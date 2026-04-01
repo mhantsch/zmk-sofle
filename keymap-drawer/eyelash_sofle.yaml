@@ -58,9 +58,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -123,9 +123,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -188,9 +188,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -253,9 +253,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -318,9 +318,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -383,9 +383,9 @@ layers:
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
@@ -684,7 +684,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:arrow-left-bold$$
-  - $$mdi:keyboard-space$$
+  - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -773,12 +773,12 @@ layers:
   - Adjust
   - Lower
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - '&mkp MB1'
-  - Raise
-  - Fun/Media
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   NumSpc:
   - $$mdi:keyboard-esc$$
@@ -840,8 +840,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - {type: held}
+  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {type: held alternate}
   - Raise
   - Fun/Media
   - {t: '$$mdi:transfer$$', type: trans}
