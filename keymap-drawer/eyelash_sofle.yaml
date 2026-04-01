@@ -479,15 +479,15 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - '{'
+  - '}'
   - {t: \, s: '|'}
   - $$mdi:alpha-w-box$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - <
+  - '>'
   - (
   - )
-  - '>'
+  - {t: '-', s: _}
   - $$mdi:arrow-left-bold$$
   - +
   - {t: '-', s: _}
@@ -496,18 +496,18 @@ layers:
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
   - '}'
+  - Sft+P
   - $$mdi:arrow-right-bold$$
   - '~'
   - _
   - '#'
   - NUBS
-  - '|'
   - {t: \, s: '|'}
+  - '|'
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - Adjust
@@ -822,10 +822,10 @@ layers:
   - +
   - $$mdi:apple-keyboard-shift$$
   - {t: '-', s: _}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - _
   - '{'
   - '}'
+  - Sft+P
   - $$mdi:arrow-right-bold$$
   - Sft+P
   - P
