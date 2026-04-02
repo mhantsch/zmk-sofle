@@ -6,7 +6,7 @@ The keymap implements my [Colemax-Maxtend](https://github.com/mhantsch/maxtend) 
 
 This config supports [ZMK Studio](https://github.com/zmkfirmware/zmk-studio).
 
-![Eyelash-sofle-photo](...)
+![Eyelash-sofle-photo](images/sofle-image.png)
 
 ![ZMK Studio Screenshot](...)
 
