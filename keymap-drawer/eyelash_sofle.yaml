@@ -53,7 +53,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
@@ -118,7 +118,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
@@ -183,7 +183,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
@@ -248,7 +248,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
@@ -313,7 +313,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:apple-keyboard-control$$
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
@@ -534,7 +534,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - Alt+$$mdi:keyboard-tab$$
+  - '&alttab'
   - {t: Qwerty, h: toggle}
   - {t: Qty-HRM, h: toggle}
   - {t: Colemak, h: toggle}
@@ -633,7 +633,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
   - Ctl+Sft+N
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:volume-off$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -760,7 +760,7 @@ layers:
   - Ctl+Sft+X
   - Ctl+Sft+C
   - Ctl+Sft+V
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - '&mup LC(SPACE) LC(LS(M))'
   - $$mdi:arrow-right-bold$$
   - Ctl+Sft+N
   - M
