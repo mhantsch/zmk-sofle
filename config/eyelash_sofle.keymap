@@ -97,7 +97,7 @@
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             ignored-key-positions = <LEFT_SIDE_KEYS RIGHT_SIDE_KEYS>;
             ignored-layers = <ADJ>;
-        }
+        };
 
         mup: mute_unmute_ptt {
             compatible = "zmk,behavior-hold-tap";
