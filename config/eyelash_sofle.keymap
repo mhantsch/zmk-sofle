@@ -91,6 +91,14 @@
     };
 
     behaviors {
+        alttab: alttab {
+            compatible = "zmk,behavior-tri-state";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            ignored-key-positions = <LEFT_SIDE_KEYS RIGHT_SIDE_KEYS>;
+            ignored-layers = <ADJ>;
+        }
+
         mup: mute_unmute_ptt {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -378,7 +386,7 @@
     
             bindings = <
                 &kp GRAVE    &kp N1       &kp N2        &kp N3       &kp N4       &kp N5                  &kp UP               &kp N6          &kp N7          &kp N8           &kp N9          &kp N0          &kp LC(LA(DEL))
-                &kp LA(TAB)  &to QTY      &to QTY_HR    &to CMK      &to CMK_HR   &to CMR                 &kp DOWN             &rgb_ug RGB_ON  &rgb_ug RGB_SAI &rgb_ug RGB_BRI  &rgb_ug RGB_HUI &rgb_ug RGB_EFF &kp LC(LA(DEL))
+                &alttab      &to QTY      &to QTY_HR    &to CMK      &to CMK_HR   &to CMR                 &kp DOWN             &rgb_ug RGB_ON  &rgb_ug RGB_SAI &rgb_ug RGB_BRI  &rgb_ug RGB_HUI &rgb_ug RGB_EFF &kp LC(LA(DEL))
                 &kp DEL      &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            &kp LEFT             &rgb_ug RGB_OFF &rgb_ug RGB_SAD &rgb_ug RGB_BRD  &rgb_ug RGB_HUD &rgb_ug RGB_EFR &rgb_ug RGB_TOG
                 &mo AJ2      &none        &out OUT_TOG  &out OUT_USB &out OUT_BLE &aim AIM_TOG            &kp RIGHT            &bl BL_ON       &bl BL_OFF      &bl BL_INC       &bl BL_DEC      &bl BL_CYCLE    &bl BL_TOG
                 &kp LC(SPACE)    &studio_unlock     &trans      &sys_reset     &none     &bootloader      &kp ENTER      &bootloader    &none    &sys_reset      &studio_unlock      &studio_unlock
