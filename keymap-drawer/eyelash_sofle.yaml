@@ -560,7 +560,7 @@ layers:
   - RGB HUD
   - RGB EFR
   - RGB TOG
-  - Adjust 2
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - OUT USB
@@ -572,9 +572,9 @@ layers:
   - '&bl BL_INC'
   - '&bl BL_DEC'
   - '&bl BL_CYCLE'
-  - '&bl BL_TOG'
+  - $$mdi:apple-keyboard-shift$$
   - Ctl+$$mdi:keyboard-space$$
-  - '&studio_unlock'
+  - Adjust 2
   - {type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -584,7 +584,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: held alternate}
   - '&studio_unlock'
-  - '&studio_unlock'
+  - Adjust 2
   Fun/Media:
   - $$mdi:keyboard-esc$$
   - F1
@@ -1080,7 +1080,7 @@ layers:
   - RGB HUD
   - RGB EFR
   - RGB TOG
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - OUT USB
@@ -1094,7 +1094,7 @@ layers:
   - '&bl BL_CYCLE'
   - '&bl BL_TOG'
   - Ctl+$$mdi:keyboard-space$$
-  - '&studio_unlock'
+  - {t: '&studio_unlock', type: held}
   - {type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -1104,7 +1104,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: held}
   - '&studio_unlock'
-  - '&studio_unlock'
+  - {t: '&studio_unlock', type: held alternate}
 combos:
 - p: [14, 15]
   k: $$mdi:keyboard-esc$$
