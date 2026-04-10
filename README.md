@@ -8,7 +8,7 @@ This config supports [ZMK Studio](https://github.com/zmkfirmware/zmk-studio).
 
 ![Eyelash-sofle-photo](images/sofle-image.png)
 
-![ZMK Studio Screenshot](...)
+![ZMK Studio Screenshot](images/sofle-studio.png)
 
 ## About the Sofle keyboard
 
