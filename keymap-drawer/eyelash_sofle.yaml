@@ -1121,3 +1121,5 @@ combos:
 - p: [0, 1]
   k: '&blockquote'
   l: [Raise, Fun/Media, NumSpc]
+- p: [14, 28, 40]
+  k: '&soft_off'
