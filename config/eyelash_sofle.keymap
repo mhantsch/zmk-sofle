@@ -39,24 +39,7 @@
 #define AGS 15      // AltGr+Shift (for Windows uppercase Umlauts via Alt+Numpad)
 #define AJ2 16      // Adjust 2 = Adjust+LShift (additional control functions)
 
-// /
-// &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
-
-// &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
-
-// &msc {
-//     acceleration-exponent = <1>;      // 0
-//     time-to-max-speed-ms = <100>;       // 300
-//     delay-ms = <0>;                   // 0
-// };
-
-// &mmv {
-//     time-to-max-speed-ms = <500>;
-//     acceleration-exponent = <1>;
-//     trigger-period-ms = <16>;
-// };
-
-// &soft_off { hold-time-ms = <2000>; };
+&soft_off { hold-time-ms = <2000>; };
 
 &lt {
     quick-tap-ms = <200>;
@@ -64,7 +47,8 @@
 
 &caps_word {
     continue-list = <UNDERSCORE BACKSPACE DELETE SEMI>;  
-    // SEMI is added here because QWERTY semicolon is letter 'O' in Colemak. Unfortunately, it doesn't automatically get shifted.
+    // SEMI is added here because QWERTY semicolon is letter 'O' in Colemak. 
+    // Unfortunately, it doesn't automatically get shifted.
 };
 
 //  key positions (for hold-trigger-key-positions):
@@ -92,19 +76,6 @@
     };
 
     behaviors {
-        rsr_vol: rsr_vol {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            tap-ms = <5>;
-            cw-binding = <&kp C_VOL_UP>;
-            ccw-binding = <&kp C_VOL_DN>;
-        };
-
-        rsr_trans: rsr_trans {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            tap-ms = <0>;
-        };
         alttab: alttab {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
@@ -188,6 +159,27 @@
             bindings = <&mo>, <&uml_sz>;
             hold-trigger-on-release;
         };
+
+//        td0: td0 {
+//            compatible = "zmk,behavior-tap-dance";
+//            display-name = "Shift/Caps Lock Tap Dance";
+//            #binding-cells = <0>;
+//            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+//        };
+
+        rsr_vol: rsr_vol {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            tap-ms = <5>;
+            cw-binding = <&kp C_VOL_UP>;
+            ccw-binding = <&kp C_VOL_DN>;
+        };
+
+        rsr_trans: rsr_trans {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            tap-ms = <0>;
+        };
     };
 
     combos {
@@ -226,6 +218,12 @@
             key-positions = <0 1>;
             layers = <RSE FUN NSP>;
             bindings = <&blockquote>;
+        };
+        combo_softoff_q_r_z {
+            require-prior-idle-ms = <100>;
+            timeout-ms = <100>;
+            key-positions = <14 28 40>;
+            bindings = <&soft_off>;
         };
     };
 
